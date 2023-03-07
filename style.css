@@ -1,0 +1,75 @@
+body{
+    background-color: blueviolet;
+    box-sizing:border-box;
+}
+
+h1{
+    text-align: center;
+    margin: 0px;
+    color: white;
+    font-size: 8em;
+}
+
+
+.drum{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    background-color: black;
+    margin: 60px auto;
+}
+
+.set{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.a{
+    background-image: url(img/clap.png);
+    background-position: center;
+    background-clip: padding-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.s{
+    background-image: url(img/closed-hihat.png);
+    background-position: center;
+    background-clip: padding-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.d{
+    background-image: url(img/crash.png);
+    background-position: center;
+    background-clip: padding-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.j{
+    background-image: url(img/kick.png);
+    background-position: center;
+    background-clip: padding-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.k{
+    background-image: url(img/open-hihat.png);
+    background-position: center;
+    background-clip: padding-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.l{
+    background-image: url(img/snare.png);
+    background-position: center;
+    background-clip: padding-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
